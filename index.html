@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Etch-a-Sketch</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="logic.js" defer></script>
+    </head>
+    <body>
+        <div class="title">Etch-a-Sketch</div>
+
+        <div class="sketchpad-container">
+            <div class="sketchpad"></div>
+            
+            <div class="options">
+                <input type="color" class="color-picker">
+                <input type="button" value="Color Mode" class="color selected">
+                <input type="button" value="Rainbow Mode" class="rainbow">
+                <input type="button" value="Clear" class="clear"> 
+                <div class="range">
+                    <div class="label">16x16</div>
+                    <input type="range" name="gridSize" min="16" max="64" step="1" value="16">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">Copyright @ TFR09</div>
+    </body>
+</html>
