@@ -1,1 +1,2 @@
-# etch-a-sketch
+# Etch-a-Sketch 
+This a remake of the classic etch a sketch drawing toy. The layout uses CSS flexbox to position elements and also makes use of DOM manipulation using Javascript to create a dynamic sketchpad. The webapp also makes use of Event Listeners to change the pixel colors using mouse hover event as well as selecting inputs using the click event. 
